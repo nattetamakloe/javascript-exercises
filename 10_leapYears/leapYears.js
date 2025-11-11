@@ -1,6 +1,6 @@
 const leapYears = function (year) {
     let statement = false;
-    if (year % 4 == 0 && (!(year % 1000 == 0) || year % 400 == 0)) statement = true;
+    if (year % 4 == 0 && (!(year % 100 == 0) || year % 400 == 0)) statement = true;
     return statement;
 };
 
